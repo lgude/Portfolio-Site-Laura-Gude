@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="39px" viewBox="0 0 40 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Case-Study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-40.000000, -5635.000000)" id="Group-28">
+            <g transform="translate(0.000000, 5272.000000)">
+                <g id="Group-2" transform="translate(40.000000, 363.000000)">
+                    <rect id="Rectangle" stroke="#8605F9" stroke-width="2" x="1" y="10" width="28" height="28" rx="7"></rect>
+                    <polygon id="Rectangle" fill="#1B1B1B" transform="translate(25.648437, 13.765735) rotate(-44.000000) translate(-25.648437, -13.765735) " points="10.0766467 9.73652314 41.1998326 9.81606649 41.2202283 17.7949461 10.0970424 17.7154027"></polygon>
+                    <path d="M14.5837934,12.4999389 C13.9185385,12.4982375 13.2800405,12.761756 12.8096326,13.2321638 L11.7598612,14.2819353 L12.8313339,15.3534081 C13.2986084,15.8206825 13.9318833,16.0839429 14.5927071,16.0856329 L36.7022122,16.1421426 C37.1882487,16.1408865 37.6323924,15.9406715 37.9534345,15.617983 C38.2744766,15.2952945 38.4724172,14.8501325 38.4711611,14.3589826 C38.4698894,13.8617469 38.267867,13.4117426 37.9418537,13.0857292 C37.6158403,12.7597159 37.165836,12.5576935 36.6686003,12.5564218 L14.5837934,12.4999389 Z" id="Rectangle" stroke="#8605F9" stroke-width="2" transform="translate(24.911974, 14.322752) rotate(-45.000000) translate(-24.911974, -14.322752) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

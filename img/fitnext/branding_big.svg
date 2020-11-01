@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="48px" viewBox="0 0 31 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Workout/Dumbbell Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Case-Study" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-621.000000, -10706.000000)" id="Group-24">
+            <g transform="translate(-12.000000, 10345.000000)">
+                <g id="Workout/Dumbbell-Copy" transform="translate(648.500000, 385.000000) rotate(90.000000) translate(-648.500000, -385.000000) translate(626.000000, 369.000000)">
+                    <g id="Group-2" transform="translate(0.500000, 0.500000)">
+                        <line x1="0" y1="15.4329004" x2="44" y2="15.4329004" id="Line" stroke="#8605F9" stroke-width="3" stroke-linecap="round"></line>
+                        <rect id="Rectangle" fill="#363636" x="2.00892857" y="9.25974026" width="15.46875" height="9.86363636"></rect>
+                        <rect id="Rectangle-Copy-13" fill="#363636" x="27.3214286" y="9.25974026" width="12.65625" height="9.86363636"></rect>
+                        <rect id="Rectangle" stroke="#8605F9" stroke-width="3" x="27.9" y="1.5" width="5.8" height="27.8658009" rx="2"></rect>
+                        <rect id="Rectangle-Copy" stroke="#8605F9" stroke-width="3" x="10.3" y="1.5" width="5.8" height="27.8658009" rx="2"></rect>
+                        <rect id="Rectangle-Copy-2" stroke="#8605F9" stroke-width="3" x="3.26" y="6.64430014" width="5.8" height="17.5772006" rx="2"></rect>
+                        <rect id="Rectangle-Copy-3" stroke="#8605F9" stroke-width="3" x="34.94" y="6.64430014" width="5.8" height="17.5772006" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
