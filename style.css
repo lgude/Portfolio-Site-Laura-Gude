@@ -4,7 +4,32 @@ Primary Color (Blue): #05676e;
 Secondary Color (Green): #489c79;
 */
 body {
+  background-color: #f3f3f3;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #1b1b1b;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+h4 {
+  font-size: 1.35em
+  font-weight: 500;
 }
 
 img {
@@ -30,6 +55,12 @@ a:focus {
   color: #67A1FF;
   text-decoration: underline;
 }
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
 .button {
   display: inline-block;
   background-color: #1b1b1b;
