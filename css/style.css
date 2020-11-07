@@ -3,6 +3,11 @@ Colors used:
 Primary Color (Blue): #05676e;
 Secondary Color (Green): #489c79;
 */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f3f3f3;
   font-family: 'Roboto', sans-serif;
@@ -30,6 +35,14 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 500;
+}
+
+header {
+  padding: 0.625em;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(50, 50, 50, 0.5);
+  background-color: #efefef;
 }
 
 img {
@@ -107,8 +120,9 @@ button {
 }
 
 .logo {
-  width: 10%;
+  max-width: 250px;
   display: block;
+  padding: 10px;
 }
 
 .button {
@@ -130,4 +144,55 @@ button {
 }
 .button:visited {
   color: #f3f3f3;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1, p {
+  text-align: center;
+}
+#hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+nav > ul > li > a:visted {
+  color: #4a4a4a;
+}
+nav > ul > li > a:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+nav > ul > li > a:active {
+  color: #1b1b1b;
 }
