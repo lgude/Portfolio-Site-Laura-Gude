@@ -78,7 +78,7 @@ form {
   border-radius: 1em;
 }
 
-ul {
+form > ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -344,4 +344,74 @@ nav > ul > li > a:active {
 }
 .wireframes p {
   text-align: center;
+}
+
+/* VetMD */
+
+.intro_vet {
+  background-color: #efefef;
+}
+.vet_logo {
+  background-color: #CAEBF2;
+}
+.blue_b {
+  background-color: #CAEBF2;
+}
+.overview_vet h3 {
+  color: #7AD9ED;
+}
+.didot {
+  font-family: 'Didot' , serif;
+}
+.arial {
+  font-family: 'Arial' , sans-serif;
+}
+.intro_vet {
+  background-color: #efefef;
+}
+.blue_t {
+  color: #7AD9ED;
+}
+.problem_statement {
+  background-color: #efefef;
+  box-shadow: 3px 0px 6px 0px rgba(50, 50, 50, 0.5);
+}
+.grey {
+  color: #545454;
+}
+.userflows {
+  background-color: #efefef;
+}
+.usability_testing {
+  background-color: #efefef;
+}
+#results .header {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+#results .second {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+#results .third {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+#results .fourth {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+#results .fifth {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+#results .sixth {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+.features_vet {
+  background-color: #efefef;
+}
+.features_vet h3 {
+  color: #7AD9ED;
 }
