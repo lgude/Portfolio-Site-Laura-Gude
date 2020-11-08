@@ -161,7 +161,10 @@ button {
   border-bottom: 1px solid #4a4a4a;
 }
 
-#hero h1, p {
+#hero h1 {
+  text-align: center;
+}
+#hero p {
   text-align: center;
 }
 #hero {
@@ -195,4 +198,17 @@ nav > ul > li > a:hover {
 }
 nav > ul > li > a:active {
   color: #1b1b1b;
+}
+
+.social_links {
+  font-size: 50px;
+  text-align: center;
+}
+
+.social_links li {
+  display: inline-block;
+}
+
+.contact {
+  text-align: center;
 }
