@@ -9,7 +9,7 @@ Secondary Color (Green): #489c79;
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -23,6 +23,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
+  text-align: center;
 }
 h2 {
   font-size: 2.25em;
@@ -203,12 +204,144 @@ nav > ul > li > a:active {
 .social_links {
   font-size: 50px;
   text-align: center;
+  color: #67A1FF;
 }
 
 .social_links li {
   display: inline-block;
 }
 
-.contact {
+/* FitNext */
+
+.writing h3 {
+  color: #8605F9;
+}
+
+.part_1_intro {
+  background-color: #1b1b1b;
+}
+#title_part {
+  color: #D4AEF7;
+}
+.black {
+  background-color: #1b1b1b;
+}
+.black h2 {
+  text-align: center;
+  color: #8605F9;
+}
+.black h4 {
+  text-align: center;
+  color: #ffffff;
+}
+.part_1_intro p {
+  color: #ffffff;
+}
+.part_2_intro p {
+  color: #ffffff;
+}
+.part_3_intro p {
+  color: #ffffff;
+}
+.part_4_intro p {
+  color: #ffffff;
+}
+.part_5_intro p {
+  color: #ffffff;
+}
+
+.purple {
+  background-color: #8605F9;
+  color: #ffffff;
+}
+.purple p {
+  padding: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.part_2_intro {
+  background-color: #1b1b1b;
+}
+
+.part_3_intro {
+  background-color: #1b1b1b;
+}
+
+.part_4_intro {
+  background-color: #1b1b1b;
+}
+
+.part_5_intro {
+  background-color: #1b1b1b;
+}
+
+.features h3 {
+  color: #8605F9;
+}
+
+.end {
+  background-color: #8605F9; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #FA0000, #8605F9);
+}
+
+/* furreverr */
+
+.intro {
+  background-color: #E2EDFF;
+}
+.overview h2 {
+  color: #B1A3FF;
+}
+.overview h3 {
+  color: #A0C4FF;
+}
+
+.pain_points {
+  background-color: #A0C4FF;
+}
+.pain_points h2 {
+  color: #D9E7FF;
+}
+
+.color_scheme h2 {
+  color: #B1A3FF;
+}
+.typography h2 {
+  color: #B1A3FF;
+}
+.typography {
+  font-family: 'AvenirNext' , sans-serif;
+}
+
+.homepage h2 {
+  color: #B1A3FF;
+}
+
+.userflow {
+  background-color: #D9E7FF;
+}
+.userflow h2 {
+  color: #A0C4FF;
+}
+
+.features_furrever h2 {
+  color: #B1A3FF;
+}
+.features_furrever h3 {
+  color: #A0C4FF;
+}
+
+.wireframes {
+  background-color: #D9E7FF;
+}
+.wireframes h2 {
+  color: #A0C4FF;
+}
+.wireframes p {
   text-align: center;
 }
