@@ -155,6 +155,9 @@ button {
 .button:visited {
   color: #f3f3f3;
 }
+.resume {
+  width: 200px;
+}
 
 /* Layout styling */
 
