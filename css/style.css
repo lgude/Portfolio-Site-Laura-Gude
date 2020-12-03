@@ -170,6 +170,9 @@ button {
 .row {
   margin: 25px 0;
 }
+.col-sm-3 {
+  width: 33%;
+}
 
 #work .row {
   padding-bottom: 25px;
@@ -258,6 +261,36 @@ nav > ul > li > a:active {
 .writing h3 {
   color: #8605F9;
 }
+.fitnext_logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.fitnext_homepage {
+  margin-top: 205px;
+}
+.intro_text {
+  color: #ffffff;
+  margin-top: 400px;
+}
+.intro_text2 {
+  color: #ffffff;
+  margin-top: 450px;
+  margin-left: 7px;
+}
+.overview_text {
+  margin-left: 60px;
+}
+
+.intro_fit {
+  background-image: url(../img/fitnext/intro_pic@2x.jpg);
+  background-size: cover;
+  background-color: #1b1b1b;
+}
+.mockups_intro {
+  background-image: url("../img/fitnext/overview_bgd@2x.png");
+  background-size: cover;
+  background-color: #ffffff;
+}
 
 .part_1_intro {
   background-color: #1b1b1b;
@@ -279,6 +312,11 @@ nav > ul > li > a:active {
 .part_1_intro p {
   color: #ffffff;
 }
+
+.no_text {
+  font-size: 1px;
+}
+
 .part_2_intro p {
   color: #ffffff;
 }
@@ -469,10 +507,13 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0px 13px;
   }
+  nav > ul > li > a {
+    font-size: 18px;
+  }
 
   nav {
     width: auto;
-    margin-top: 27px;
+    margin-top: 25px;
     display: inline-block;
     float: right;
   }
@@ -498,12 +539,14 @@ Medium devices (640px and larger)
   [class*="col-"] {
     display: inline-block;
     float: left;
-    padding: 10px;
   }
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+  .padding_10 {
+    padding: 10px;
   }
 }
 /* ==============================
@@ -511,7 +554,30 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
   nav {
-    margin-top: 50px;
+    margin-top: 25px;
+  }
+  nav > ul > li > a {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+
+  .case_study_fitnext {
+    max-width: 1024px;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .button {
+    width: 160px;
+  }
+  .resume {
+    width: 240px;
   }
 
   .col-lg-7 {
@@ -520,11 +586,110 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 40%;
   }
+  .col-lg-part-big {
+    width: 32%;
+    padding-top: 40px;
+  }
+  .col-lg-part-big1 {
+    width: 8%;
+    padding-top: 43px;
+  }
+  .col-lg-part-small {
+    width: 15%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+  .fitnext_logo {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  .fitnext_homepage {
+    margin-top: 205px;
+  }
+  .intro_text {
+    color: #ffffff;
+    margin-top: 400px;
+  }
+  .intro_text2 {
+    color: #ffffff;
+    margin-top: 450px;
+    margin-left: 7px;
+  }
+  .overview_text {
+    margin-left: 100px;
+  }
+#title_part {
+  padding-top: 100px;
+  font-size: 50px;
+  font-weight: 900;
+}
+.grey_circle {
+  background-color: #363636;
+  width: 200px;
+}
+.padding_100 {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.padding_part_3{
+  margin-top: 92px;
+  margin-bottom: 91px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.large_text_fitnext {
+  font-size: 140px;
+  font-weight: bold;
+  margin-top: -50px;
+}
+.small_text_fitnext {
+  margin-top: -150px;
+  padding-bottom: 100px;
+}
+.userflow_fitnext {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+.mockup_fitnext {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.part_1_picture {
+  background-image: linear-gradient(rgba(134,5,249,.3), rgba(134,5,249,.3)),
+      url("../img/fitnext/part_1_picture@2x.jpg");
+  height: 400px;
+}
+.part_2_picture {
+  background-image: linear-gradient(rgba(134,5,249,.3), rgba(134,5,249,.3)),
+      url("../img/fitnext/part_2_picture@2x.jpg");
+  height: 500px;
+}
+.part_3_picture {
+  background-image: linear-gradient(rgba(134,5,249,.3), rgba(134,5,249,.3)),
+      url("../img/fitnext/part_3_picture@2x.jpg");
+  height: 300px;
+  background-position: bottom center;
+}
+.padding_part_4 {
+  margin-top: 53px;
+  margin-bottom: 52px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fitnext_icon {
+  padding-top:37px;
+  padding-bottom: 36px;
+  padding-left: 65px;
+}
+
 }
 /* ==============================
 X-large devices (1440px or larger)
