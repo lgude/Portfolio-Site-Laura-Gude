@@ -1510,6 +1510,80 @@ Medium devices (640px and larger)
   font-weight: bold;
 }
 
+
+/* furrever homes */
+
+
+.case_study_furrever {
+  max-width: 640px;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.furrever_icon {
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+
+.furrever_icon > SVG {
+  width: 90%;
+}
+.intro_pic_furrever {
+  margin-top: 100px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.furrever_title {
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.furrever_overview {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.furrever_overview1 {
+  padding-left: 70px;
+  margin-bottom: 100px;
+}
+.blue_title {
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 60px;
+}
+.furrever_painpoints {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.color_furrever {
+  padding-left: 20px;
+}
+.color_furrever1 {
+  width: 95%;
+}
+.color_furrever2 {
+  padding-top: 98px;
+  padding-right: 20px;
+}
+.font_weight_furrever {
+  text-align: right;
+  margin-top: 10px;
+}
+.font_aa_furrever {
+  text-align: center;
+  font-size: 100px;
+  margin-top: -135px;
+}
+.font_all_furrever {
+  margin-bottom: -10px;
+}
+.furrever_featuretext {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 }
 /* ==============================
 Large devices (1024px or larger)
