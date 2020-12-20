@@ -383,6 +383,70 @@ nav > ul > li > a:active {
   display: table;
 }
 
+.no-margin-top {
+  margin-top: 0px;
+}
+.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.padding_50 {
+  padding-bottom: 100px;
+}
+.section_navigation {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_tab {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 15px;
+}
+.section_tab p {
+  display: none;
+}
+.section_tab img {
+  width: 30px;
+  height: auto;
+  display: block;
+}
+.section_current {
+  background-color: #363636;
+  padding: 15px 30px;
+}
+.section_current p {
+  display: block;
+  color: white;
+  font-weight: bold;
+  float: left;
+  padding-left: 15px;
+  margin: 0;
+  padding-top: 10px;
+}
+.section_current img {
+  float: left;
+  width: 40px;
+}
+.research img {
+  width: 35px;
+}
+.ui_final img {
+  width: 25px;
+}
+.ui_final_big img {
+  width: 30px;
+}
+.dumbbell img {
+  width: 25px;
+}
+.dumbbell_big img {
+  width: 30px;
+}
+.ux_design {
+  padding-top: 22px;
+}
+
 /* Advanced CSS */
 
 .case_study_fitnext {
