@@ -50,9 +50,7 @@ img {
   width: 100%;
 }
 
-nav {
-  width: 100%;
-}
+
 
 a {
   color: #67A1FF;
@@ -125,8 +123,6 @@ button {
 }
 
 .logo {
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   display: block;
   padding: 10px;
@@ -198,10 +194,9 @@ button {
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
   padding: 0 10px;
   text-transform: uppercase;
@@ -216,6 +211,30 @@ nav > ul > li > a:hover {
 }
 nav > ul > li > a:active {
   color: #1b1b1b;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  text-align: right;
+  padding: 10px 0;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 .social_links {
@@ -468,9 +487,11 @@ nav > ul > li > a:active {
   padding-right: 50px;
 }
 
-.logo {
+/*.logo {
   width: 25%;
 }
+*/
+
 .fitnext_logo {
   padding-left: 5px;
   padding-top: 5px;
@@ -1136,9 +1157,21 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0px 13px;
   }
+  nav > ul {
+    margin: 1em 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
   nav > ul > li > a {
     font-size: 18px;
   }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 
   nav {
     width: auto;
@@ -1148,6 +1181,8 @@ Medium devices (640px and larger)
   }
 
   .logo {
+    margin-left: auto;
+    margin-right: auto;
     width: 35%;
     display: inline-block;
   }
